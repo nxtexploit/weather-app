@@ -84,3 +84,19 @@ h1.temp {
   top: 0;
   left: 20px;
 }
+
+body {
+    animation: dropFade 1s;
+}
+
+@keyframes dropFade {
+    from {
+        opacity: 0;
+        transform: translateY(-3%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
